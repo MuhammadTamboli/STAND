@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DryLines</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #93e18e;
+      color: #333;
+    }
+    header, nav, section, footer {
+      padding: 20px;
+    }
+    header {
+      background: #1a9e05;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background: #6cce77;
+      display: flex;
+     
+      justify-content: center;
+      gap: 30px;
+      font-weight: bold;
+    }
+    nav a {
+      text-decoration: none;
+      color: #d7e819;
+      background-color: rgb(22, 25, 21);
+      padding: 5PX 10PX;
+      border-radius: 6px;
+      
+    }
+    nav a:hover {
+     animation-duration: 0ms;
+      background-color: rgb(44, 44, 74);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      background: #1a9e05;
+      color: white;
+    }
+    .fade-in-up {
+      animation: fadeInUp 0.8s ease-out;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    video {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i>DryLines</i></h1>
+    <p>Elegant Drying Solutions for Every Home</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="fade-in-up">
+    <h2>Welcome to DryLines</h2>
+    <p>Ceiling and wall-mounted drying solutions designed for :-</p>
+    <U>
+ <ul><li>MODERN HOMES</LI>
+        <LI> BUNGALOWS</LI>
+        <LI> FLAT</LI>
+        <LI> BALCONY</LI></uL></U>
+  </section>
+
+  <section id="about" class="fade-in-up">
+    <h2>About Us</h2>
+    <p>
+      DryLines offers versatile drying systems including ceiling-mounted, L-bracket mounted, and shed-mounted options. Our systems are easy to install, durable, and perfect for maximizing drying space in compact areas.
+    </p>
+    <br>
+    <HR>
+
+
+
+    <ul><B>>>> PIPES</B><hr>
+      <li>stainless steel</li>
+      <li>rustproof pipes</li>
+      <li>0.22 mm thickness</li>
+    </ul>
+    <BR>
+    <HR>
+    <ul><B>>>> ROPES</B><hr>
+      <li>Nylon polypropylene ropes</li>
+      <li>double braided ropes</li>
+      <li>5mm thickness</li>
+    </ul>
+    <BR>
+    <HR>
+    <ul><B>>>> CLIPS</B><hr>
+      <li>Used Derlin Material For tie Rope
+      </li>
+      <li>Durable Rope holder </li>
+      <li>Highly Durable Pulley For hanging Pipes</li>
+      <LI>Pipes End Cap for Safety</LI>
+    </ul>
+    
+  </section>
+
+  <section id="gallery" class="fade-in-up">
+    <h2>Installation Gallery</h2>
+    <div class="gallery">
+      <img src="c.jpg" alt="Ceiling Mounted in Bathroom" />
+      <img src="d.jpg" alt="L Bracket Mounted on Terrace" />
+      <img src="a.jpg" alt="Shed Mounted in Terrace" />
+      <video width="640" height="480" controls MUTED>
+        <source src="VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+      
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in-up">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:muhammadtamboli14@gmail.com">muhammadtamboli14@gmail.com</a></p>
+    <a href="https://wa.me/919923502080">WhatsApp +91 9923502080 </a>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DryLines. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
